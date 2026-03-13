@@ -7,9 +7,16 @@ const LatestCollection = () => {
  
   
   return (
+   
     <div className='my-10'>
       <div className='text-center py-8 text-3xl'>
-  <Title text1={'LATEST'} text2={'COLLECTIOS'}/>
+         <p className='w-3/2 m-auto text-xs sm:text-sm md:text-base text-gray-600'> 
+  Our store offers carefully selected products that combine quality, affordability, and modern design. We believe shopping should be simple, enjoyable, and accessible to everyone. Browse our collection and find the perfect items that match your style and needs.
+
+  </p>
+   <br />
+  <Title text1={'LATEST '} text2={'COLLECTIOS'}/>
+  
     </div>
     </div>
   )
