@@ -24,7 +24,15 @@ const Footer = () => {
 <div>
     <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
     <ul className='flex flex-col gap-1 text-gray-600'>
-        
+       <li>
+  <a href="tel:+8801604461529">+880 1604-461529</a>
+</li>
+    <li>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=showravc85@gmail.com" target="_blank">
+    showravc85@gmail.com
+  </a>
+</li>
+        <li></li>
     </ul>
 </div>
       </div>
