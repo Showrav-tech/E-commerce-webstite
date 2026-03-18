@@ -2,6 +2,7 @@ import React from 'react'
 
 const Collection = () => {
   const {products}=useContext(ShopContext);
+  const [showFilter,setShowFilter]=useState(false);
   return (
     
       <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t'>
