@@ -36,6 +36,10 @@ const Footer = () => {
     </ul>
 </div>
       </div>
+      <div>
+        <hr />
+        <p className='py-5 text-sm text-center'>© 2026 forever.com — All Rights Reserved. Bringing you quality products and exclusive deals since 2026. </p>
+      </div>
     </div>
   )
 }
