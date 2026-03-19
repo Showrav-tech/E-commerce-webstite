@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { ShopContext } from '../context/ShopContext'; // Adjust the path as needed
-
+import { assets } from '../assets/assets';
 const Collection = () => {
   const { products } = useContext(ShopContext);
   const [showFilter, setShowFilter] = useState(false);
@@ -14,6 +14,7 @@ const Collection = () => {
           onClick={() => setShowFilter(!showFilter)}
         >
           FILTERS
+          <img className={`h-3 sm:hidden ${showFilter ? 'rotate-90':''}`} src={assets.dropdown_icon} alt=""/>
         </p>
 
         {/* Category */}
