@@ -18,10 +18,9 @@ const Collection = () => {
 
         {/* Category */}
         <div
-          className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '' : 'hidden'} sm:block`}
-        >
+          className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '' : 'hidden'} sm:block`} >
           <p className='mb-3 text-sm font-medium'>CATEGORIES</p>
-          {/* Map over categories if available */}
+          <div></div>
         </div>
       </div>
 
