@@ -29,18 +29,18 @@ const Collection = () => {
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'> </div>
         <p className='flex gap-2'>
         <input type="checkbox" className='w-3' value={'Men'}/>
-        Men
+        Mens
 
         </p>
         
          <p className='flex gap-2'>
         <input type="checkbox" className='w-3' value={'Women'}/>
-        Women
+        Womens
 
         </p>
          <p className='flex gap-2'>
         <input type="checkbox" className='w-3' value={'Kids'}/>
-        Kid
+        Kids
 
         </p>
         
