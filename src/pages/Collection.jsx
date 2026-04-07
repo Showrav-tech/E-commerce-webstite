@@ -79,11 +79,19 @@ const Collection = () => {
    </select>
     </div>
  {/* map Products */}
-      <div className='grid grid-cols-2 md:grid-cols-3 lg:gris-cols-4 gap-4 gap-y-6'>
-     {
-      filterProducts.map((item,))
-     }
-      </div>
+ <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6'>
+  {
+    filterProducts.map((item, index) => (
+      <ProductItem
+        key={index}
+        name={item.name}
+        id={item.id}
+        price={item.price}
+        image={item.image}
+      />
+    ))
+  }
+</div>
    </div>
      
     </div>
