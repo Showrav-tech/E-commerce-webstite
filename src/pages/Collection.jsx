@@ -6,6 +6,10 @@ const Collection = () => {
   const { products } = useContext(ShopContext);
   const [showFilter, setShowFilter] = useState(false);
   const [filterProducts,setFilterProducts]=useState([]);
+  useEffect(()=>{
+    setFilterProducts(products);
+  },[])
+ 
   return (
     <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t'>
       {/* Filter options */}
@@ -76,7 +80,9 @@ const Collection = () => {
     </div>
  {/* map Products */}
       <div className='grid grid-cols-2 md:grid-cols-3 lg:gris-cols-4 gap-4 gap-y-6'>
-     
+     {
+      filterProducts.map((item,))
+     }
       </div>
    </div>
      
